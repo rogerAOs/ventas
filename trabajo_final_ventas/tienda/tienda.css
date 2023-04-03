@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+*{
+    font-family: 'Alkatra', cursive;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+div{
+    background-color: rgba(85, 85, 85, 0.53);
+    margin: 10px;
+    text-align: center;
+    width: 450px;
+    height: 485px;
+
+}
+img{
+    width: 300px;
+    height: 300px;
+}
+button{
+    padding: 5px;
+    width: 100%;
+    background-color: black;
+    color: rgb(255, 255, 255);
+}

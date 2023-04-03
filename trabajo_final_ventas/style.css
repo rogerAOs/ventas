@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+*{
+    font-family: 'Alkatra', cursive;
+    color: aliceblue;
+}
+body{
+    background-image: url("https://images7.alphacoders.com/411/thumb-1920-411820.jpg");
+    background-position: center;
+}
+.titulo{
+    color: black;
+    text-shadow: 0 0 10px rgb(255, 255, 255), 0 0 10px rgb(255, 255, 255);
+}
+.container{
+    display: flex;
+    width: 100%;
+    height: 94vh;
+    justify-content: center;
+    align-items: center;
+}
+.formulario{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.363);
+    box-shadow: 0 0 12px black,0 0 12px black;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+span{
+    color: black;
+    text-shadow: 0 0 3px rgb(255, 255, 255),0 0 3px rgb(255, 255, 255);
+}
+.input{
+    padding: 3px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    background: linear-gradient(transparent,black) ;
+}
+.enviar{
+    box-sizing: border-box;
+    font-size: 20px;
+    border: none;
+    border: 5px solid rgb(3, 110, 83);
+    background-color: transparent;
+    margin: 20px 0;
+    color: rgb(0, 0, 0);
+    transition: .3s;
+    cursor: pointer;
+}
+.enviar:hover{
+    text-shadow: 0 0 3px rgb(255, 255, 255);
+    box-shadow: 0 0 6px rgb(3, 110, 83), 0 0 6px rgb(3, 110, 83);
+}
+.registrate{
+    text-shadow: 0 0 3px rgb(255, 255, 255),0 0 3px rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* registro */
+.registro_container{
+    display: none;
+    width: 100%;
+    height: 94vh;
+    justify-content: center;
+    align-items: center;
+}
+.registro_formulario{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.363);
+    box-shadow: 0 0 12px black,0 0 12px black;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+/* agregar producto */
+.container_agregar_producto{
+    display: none;
+    width: 100%;
+    height: 94vh;
+    justify-content: center;
+    align-items: center;
+}
+.registro_agregar_producto{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.363);
+    box-shadow: 0 0 12px black,0 0 12px black;
+    padding: 20px;
+    border-radius: 10px;
+}
